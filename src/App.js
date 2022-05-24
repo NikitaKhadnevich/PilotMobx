@@ -1,9 +1,10 @@
+/* eslint-disable react/jsx-filename-extension */
+import React from 'react';
+
+import Counter from './pages/Counter';
+
 function App() {
-  return (
-    <div className="App">
-      <p>Hello World</p>
-    </div>
-  );
+  return <Counter />;
 }
 
 export default App;
