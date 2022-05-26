@@ -76,3 +76,19 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+.usersInfo {
+  display: flex;
+  width: 500px;
+  height: 30px;
+  border: '1px solid gray !important';
+  border-radius: 5px;
+  justify-content: space-between;
+  margin: 5px;
+  background-color: bisque;
+  box-sizing: border-box;
+}
+
+button {
+  margin-left: 5px;
+}
